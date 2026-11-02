@@ -1,0 +1,339 @@
+{
+  "schema": "kinetica-media-lineage/1",
+  "verified_date": "2026-11-02",
+  "original_download_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Schubkurbelgetriebe_%28Eitech%29.webm",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Schubkurbelgetriebe_(Eitech).webm",
+  "author": "Rhetos",
+  "declared_license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "original_sha256": "a80d4fc0c85b1d4ec747fe2049349cf656579c3e0d02894c4ae437a412665e66",
+  "original_bytes": 5157101,
+  "clip_sha256": "4e179551a3dde38da847c9392e277331bc93fd1ac28d3524da8a6ca4872a1677",
+  "clip_bytes": 547803,
+  "exact_binary_match_to_preserved_original": true,
+  "original_container": "EBML/WebM (earlier local filename used .mp4 extension)",
+  "original_metadata": {
+    "reported_frames": 443,
+    "fps": 25.0,
+    "width": 1920,
+    "height": 1080,
+    "decoded_frames": 442
+  },
+  "clip_original_frame_interval_inclusive": [
+    150,
+    199
+  ],
+  "clip_transform": "Excerpt, resize 1920x1080 to 960x540, H.264 encoding, audio removed, CFR25",
+  "comparison": "All50 corresponding decoded frames, OpenCV INTER_AREA half-size reference; encoding/resampler differences expected",
+  "minimum_psnr_db": 39.10004685835164,
+  "mean_psnr_db": 41.13489322047694,
+  "frames": [
+    {
+      "clip_frame": 0,
+      "original_frame": 150,
+      "psnr_db": 41.957303521495824,
+      "mean_absolute_difference": 1.247232510288066
+    },
+    {
+      "clip_frame": 1,
+      "original_frame": 151,
+      "psnr_db": 41.74120865191854,
+      "mean_absolute_difference": 1.2760101594650206
+    },
+    {
+      "clip_frame": 2,
+      "original_frame": 152,
+      "psnr_db": 41.705507712497706,
+      "mean_absolute_difference": 1.27896283436214
+    },
+    {
+      "clip_frame": 3,
+      "original_frame": 153,
+      "psnr_db": 41.59703181017907,
+      "mean_absolute_difference": 1.2874369855967078
+    },
+    {
+      "clip_frame": 4,
+      "original_frame": 154,
+      "psnr_db": 41.59201749894482,
+      "mean_absolute_difference": 1.2892605452674897
+    },
+    {
+      "clip_frame": 5,
+      "original_frame": 155,
+      "psnr_db": 41.582935442675016,
+      "mean_absolute_difference": 1.2906976594650206
+    },
+    {
+      "clip_frame": 6,
+      "original_frame": 156,
+      "psnr_db": 41.404757462998745,
+      "mean_absolute_difference": 1.3263631687242798
+    },
+    {
+      "clip_frame": 7,
+      "original_frame": 157,
+      "psnr_db": 41.433424128909095,
+      "mean_absolute_difference": 1.3268229166666667
+    },
+    {
+      "clip_frame": 8,
+      "original_frame": 158,
+      "psnr_db": 41.444658882939045,
+      "mean_absolute_difference": 1.3224299125514403
+    },
+    {
+      "clip_frame": 9,
+      "original_frame": 159,
+      "psnr_db": 41.52085031277056,
+      "mean_absolute_difference": 1.3159284979423869
+    },
+    {
+      "clip_frame": 10,
+      "original_frame": 160,
+      "psnr_db": 41.513739748820775,
+      "mean_absolute_difference": 1.3184934413580247
+    },
+    {
+      "clip_frame": 11,
+      "original_frame": 161,
+      "psnr_db": 41.512064751423395,
+      "mean_absolute_difference": 1.319104938271605
+    },
+    {
+      "clip_frame": 12,
+      "original_frame": 162,
+      "psnr_db": 41.463116665238374,
+      "mean_absolute_difference": 1.3278414351851853
+    },
+    {
+      "clip_frame": 13,
+      "original_frame": 163,
+      "psnr_db": 41.34391653255327,
+      "mean_absolute_difference": 1.3497273662551441
+    },
+    {
+      "clip_frame": 14,
+      "original_frame": 164,
+      "psnr_db": 41.35749874600713,
+      "mean_absolute_difference": 1.3507336676954733
+    },
+    {
+      "clip_frame": 15,
+      "original_frame": 165,
+      "psnr_db": 41.324846777960374,
+      "mean_absolute_difference": 1.3570421810699589
+    },
+    {
+      "clip_frame": 16,
+      "original_frame": 166,
+      "psnr_db": 41.33809061190681,
+      "mean_absolute_difference": 1.3563528806584362
+    },
+    {
+      "clip_frame": 17,
+      "original_frame": 167,
+      "psnr_db": 41.34984696897262,
+      "mean_absolute_difference": 1.357397762345679
+    },
+    {
+      "clip_frame": 18,
+      "original_frame": 168,
+      "psnr_db": 41.30387052102965,
+      "mean_absolute_difference": 1.363976980452675
+    },
+    {
+      "clip_frame": 19,
+      "original_frame": 169,
+      "psnr_db": 41.331945086451015,
+      "mean_absolute_difference": 1.363922968106996
+    },
+    {
+      "clip_frame": 20,
+      "original_frame": 170,
+      "psnr_db": 41.336427080318565,
+      "mean_absolute_difference": 1.3642123199588478
+    },
+    {
+      "clip_frame": 21,
+      "original_frame": 171,
+      "psnr_db": 41.258835913345635,
+      "mean_absolute_difference": 1.3751832561728394
+    },
+    {
+      "clip_frame": 22,
+      "original_frame": 172,
+      "psnr_db": 41.19938315245258,
+      "mean_absolute_difference": 1.3826041666666666
+    },
+    {
+      "clip_frame": 23,
+      "original_frame": 173,
+      "psnr_db": 41.191592783095686,
+      "mean_absolute_difference": 1.3742959104938273
+    },
+    {
+      "clip_frame": 24,
+      "original_frame": 174,
+      "psnr_db": 41.31664916113423,
+      "mean_absolute_difference": 1.3637236368312757
+    },
+    {
+      "clip_frame": 25,
+      "original_frame": 175,
+      "psnr_db": 41.32258496506586,
+      "mean_absolute_difference": 1.3622344393004115
+    },
+    {
+      "clip_frame": 26,
+      "original_frame": 176,
+      "psnr_db": 41.34182492203316,
+      "mean_absolute_difference": 1.3608532664609054
+    },
+    {
+      "clip_frame": 27,
+      "original_frame": 177,
+      "psnr_db": 41.311890086918226,
+      "mean_absolute_difference": 1.3656860853909465
+    },
+    {
+      "clip_frame": 28,
+      "original_frame": 178,
+      "psnr_db": 41.22868722728899,
+      "mean_absolute_difference": 1.377409336419753
+    },
+    {
+      "clip_frame": 29,
+      "original_frame": 179,
+      "psnr_db": 41.35807584451298,
+      "mean_absolute_difference": 1.3624781378600823
+    },
+    {
+      "clip_frame": 30,
+      "original_frame": 180,
+      "psnr_db": 41.397577161776155,
+      "mean_absolute_difference": 1.354110725308642
+    },
+    {
+      "clip_frame": 31,
+      "original_frame": 181,
+      "psnr_db": 41.375103896581294,
+      "mean_absolute_difference": 1.3576838991769546
+    },
+    {
+      "clip_frame": 32,
+      "original_frame": 182,
+      "psnr_db": 41.325764537327714,
+      "mean_absolute_difference": 1.3635783179012346
+    },
+    {
+      "clip_frame": 33,
+      "original_frame": 183,
+      "psnr_db": 41.25178782411615,
+      "mean_absolute_difference": 1.3741968878600823
+    },
+    {
+      "clip_frame": 34,
+      "original_frame": 184,
+      "psnr_db": 41.1856283934535,
+      "mean_absolute_difference": 1.3852224794238683
+    },
+    {
+      "clip_frame": 35,
+      "original_frame": 185,
+      "psnr_db": 41.03724723444914,
+      "mean_absolute_difference": 1.4169823816872429
+    },
+    {
+      "clip_frame": 36,
+      "original_frame": 186,
+      "psnr_db": 41.02897623869345,
+      "mean_absolute_difference": 1.418377700617284
+    },
+    {
+      "clip_frame": 37,
+      "original_frame": 187,
+      "psnr_db": 40.91342770926509,
+      "mean_absolute_difference": 1.4294097222222222
+    },
+    {
+      "clip_frame": 38,
+      "original_frame": 188,
+      "psnr_db": 40.6080417140612,
+      "mean_absolute_difference": 1.4634381430041152
+    },
+    {
+      "clip_frame": 39,
+      "original_frame": 189,
+      "psnr_db": 40.816163190259275,
+      "mean_absolute_difference": 1.4421997170781893
+    },
+    {
+      "clip_frame": 40,
+      "original_frame": 190,
+      "psnr_db": 40.68294411053198,
+      "mean_absolute_difference": 1.4631243569958847
+    },
+    {
+      "clip_frame": 41,
+      "original_frame": 191,
+      "psnr_db": 40.789054173847475,
+      "mean_absolute_difference": 1.4509362139917696
+    },
+    {
+      "clip_frame": 42,
+      "original_frame": 192,
+      "psnr_db": 40.70998442344579,
+      "mean_absolute_difference": 1.4703960905349793
+    },
+    {
+      "clip_frame": 43,
+      "original_frame": 193,
+      "psnr_db": 40.66985284823299,
+      "mean_absolute_difference": 1.4665419238683128
+    },
+    {
+      "clip_frame": 44,
+      "original_frame": 194,
+      "psnr_db": 40.60384676575257,
+      "mean_absolute_difference": 1.4830561985596709
+    },
+    {
+      "clip_frame": 45,
+      "original_frame": 195,
+      "psnr_db": 40.38314344603236,
+      "mean_absolute_difference": 1.5202147633744856
+    },
+    {
+      "clip_frame": 46,
+      "original_frame": 196,
+      "psnr_db": 40.344966231605994,
+      "mean_absolute_difference": 1.5281796553497942
+    },
+    {
+      "clip_frame": 47,
+      "original_frame": 197,
+      "psnr_db": 39.961248882724206,
+      "mean_absolute_difference": 1.572778420781893
+    },
+    {
+      "clip_frame": 48,
+      "original_frame": 198,
+      "psnr_db": 39.87527241148163,
+      "mean_absolute_difference": 1.5933339763374486
+    },
+    {
+      "clip_frame": 49,
+      "original_frame": 199,
+      "psnr_db": 39.10004685835164,
+      "mean_absolute_difference": 1.7083886316872428
+    }
+  ],
+  "originals_unchanged": true,
+  "inference_performed": false,
+  "limits": [
+    "Binary identity establishes local/public file identity; Commons uploader licensing declaration is not a title warranty",
+    "PSNR establishes image correspondence, not model accuracy or prospective validation",
+    "Public release and competition license declarations still need entrant review/authorization"
+  ]
+}

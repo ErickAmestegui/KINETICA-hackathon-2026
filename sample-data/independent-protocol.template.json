@@ -1,0 +1,14 @@
+{
+  "status": "TEMPLATE_NOT_AN_EXPERIMENT",
+  "dataset_id": "NEW_UNSEEN_CONTINUOUS_RECORDING_REQUIRED",
+  "video_sha256": "REPLACE_WITH_SHA256_OF_NEW_RECORDING",
+  "freeze_frame": 89,
+  "horizon": 20,
+  "camera": "fixed tripod; planar mechanism; no cuts or retiming",
+  "training_observations": "manual or demonstrably past-only tracking; training frames only",
+  "evaluation_observations": "separate blinded manual_future_blinded annotations",
+  "geometry": "declare r/L/e before fitting; record scale separately if known",
+  "baselines": ["last training centroid", "linear OLS over last 8 training centroids"],
+  "exclusion_policy": "No post-hoc interval changes. Missing labels invalidate score; new protocol required.",
+  "independence_verified": false
+}

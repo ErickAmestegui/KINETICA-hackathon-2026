@@ -1,0 +1,223 @@
+{
+  "schema": "kinetica-presentation-smoke/1",
+  "observedAt": "2026-11-02T18:43:38.686Z",
+  "newInference": false,
+  "pages": [
+    {
+      "name": "studio",
+      "width": 1440,
+      "documentWidth": 1440,
+      "lang": "en",
+      "interactiveCount": 47,
+      "unnamed": [],
+      "overflow": false
+    },
+    {
+      "name": "predict",
+      "width": 1440,
+      "documentWidth": 1440,
+      "lang": "en",
+      "interactiveCount": 29,
+      "unnamed": [],
+      "overflow": false
+    },
+    {
+      "name": "break",
+      "width": 1440,
+      "documentWidth": 1440,
+      "lang": "en",
+      "interactiveCount": 29,
+      "unnamed": [],
+      "overflow": false
+    },
+    {
+      "name": "ask",
+      "width": 1440,
+      "documentWidth": 1440,
+      "lang": "en",
+      "interactiveCount": 32,
+      "unnamed": [],
+      "overflow": false
+    },
+    {
+      "name": "ask-mobile",
+      "width": 390,
+      "documentWidth": 390,
+      "lang": "en",
+      "interactiveCount": 30,
+      "unnamed": [
+        {
+          "role": "link",
+          "node": 26
+        }
+      ],
+      "overflow": false
+    }
+  ],
+  "keyboard": [
+    {
+      "tag": "A",
+      "role": null,
+      "name": "KINETICAReality to Living Machines.",
+      "outline": "solid",
+      "outlineWidth": "2px",
+      "boxShadow": "none"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "name": "Studio",
+      "outline": "solid",
+      "outlineWidth": "2px",
+      "boxShadow": "none"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "name": "My machines",
+      "outline": "solid",
+      "outlineWidth": "2px",
+      "boxShadow": "none"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "name": "Import footage",
+      "outline": "solid",
+      "outlineWidth": "2px",
+      "boxShadow": "none"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "name": "Motion lab",
+      "outline": "solid",
+      "outlineWidth": "2px",
+      "boxShadow": "none"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "name": "Components",
+      "outline": "solid",
+      "outlineWidth": "2px",
+      "boxShadow": "none"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "name": "Validation report",
+      "outline": "solid",
+      "outlineWidth": "2px",
+      "boxShadow": "none"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "name": "Save study",
+      "outline": "solid",
+      "outlineWidth": "2px",
+      "boxShadow": "none"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "name": "Model connections",
+      "outline": "solid",
+      "outlineWidth": "2px",
+      "boxShadow": "none"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "name": "Studio guide ?",
+      "outline": "solid",
+      "outlineWidth": "2px",
+      "boxShadow": "none"
+    },
+    {
+      "tag": "BUTTON",
+      "role": "tab",
+      "name": "3D Model",
+      "outline": "solid",
+      "outlineWidth": "2px",
+      "boxShadow": "rgba(7, 59, 73, 0.19) 0px 2px 5px 0px"
+    },
+    {
+      "tag": "BUTTON",
+      "role": "tab",
+      "name": "Compare",
+      "outline": "solid",
+      "outlineWidth": "2px",
+      "boxShadow": "none"
+    },
+    {
+      "tag": "BUTTON",
+      "role": "tab",
+      "name": "Analysis",
+      "outline": "solid",
+      "outlineWidth": "2px",
+      "boxShadow": "none"
+    },
+    {
+      "tag": "BUTTON",
+      "role": "tab",
+      "name": "Report",
+      "outline": "solid",
+      "outlineWidth": "2px",
+      "boxShadow": "none"
+    },
+    {
+      "tag": "BUTTON",
+      "role": "tab",
+      "name": "Reality Lab",
+      "outline": "solid",
+      "outlineWidth": "2px",
+      "boxShadow": "none"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "name": "Import video",
+      "outline": "solid",
+      "outlineWidth": "2px",
+      "boxShadow": "rgba(21, 53, 54, 0.082) 0px 1px 2px 0px"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "name": "Local workspace",
+      "outline": "solid",
+      "outlineWidth": "2px",
+      "boxShadow": "none"
+    },
+    {
+      "tag": "BUTTON",
+      "role": null,
+      "name": "01 CrankshaftROTARY INPUT",
+      "outline": "solid",
+      "outlineWidth": "2px",
+      "boxShadow": "none"
+    }
+  ],
+  "errors": [],
+  "blockedRequests": [
+    {
+      "path": "/api/meta/status",
+      "blocked": true
+    }
+  ],
+  "scope": [
+    "Chromium accessibility names for exposed controls",
+    "keyboard focus traversal",
+    "desktop/mobile DOM overflow",
+    "authentic UI screenshots"
+  ],
+  "notTested": [
+    "Complete WCAG conformance",
+    "screen-reader user study",
+    "all color contrast combinations",
+    "all 3D keyboard interactions"
+  ],
+  "pass": false
+}

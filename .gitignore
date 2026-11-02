@@ -1,0 +1,22 @@
+.env
+.env.*
+!.env.example
+.venv/
+node_modules/
+dist/
+__pycache__/
+.pytest_cache/
+*.pyc
+data/
+output/
+*.mp4
+*.mov
+*.webm
+*.log
+.playwright-cli/
+.playwright-mcp/
+test-results/
+*.tsbuildinfo
+
+# Original synthetic release-demo media.
+!demo/kinetica-original-synthetic-slider-crank.mp4

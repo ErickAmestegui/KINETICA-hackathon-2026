@@ -1,0 +1,52 @@
+{
+  "schema": "kinetica-review-evidence/1",
+  "variant": "original-media",
+  "media_file": "kinetica-original-synthetic-slider-crank.mp4",
+  "project_file": "SYNTHETIC-original-demo-project.json",
+  "source_clip_sha256": "3c73d63eabd40c111ac47108ba50b1742c8c566ce6f441236d7b864b7c09efe5",
+  "sanitized_project_sha256": "2466e74cce5e48f7a94f0511494fbf98226dafea71e9ff968b57e463ac88ec67",
+  "metadata_sha256": "b16b8a048748074362b7171a912464f4a0b80c2cbe33ae802d04baca16c116bb",
+  "records_sha256": "67ab8adf9dd7456f65ecf60f9d8515b08d1b5eec664a19852a0e86925a8541e9",
+  "records": 500,
+  "synthetic": true,
+  "sam_output": false,
+  "third_party_material": false,
+  "new_inference_performed": false,
+  "generator": {
+    "label": "SYNTHETIC - ORIGINAL WORK OF THIS REPOSITORY",
+    "generator": "scripts/make_original_demo_clip.py",
+    "seed": 20261102,
+    "frames": 125,
+    "fps": 25,
+    "size": [
+      1280,
+      720
+    ],
+    "parameters": {
+      "r": 32.0,
+      "L": 128.0,
+      "rpm": 36.0,
+      "e": 0.0,
+      "phase": 0
+    },
+    "calibration": {
+      "ox": 380.0,
+      "oy": 410.0,
+      "angle": 0,
+      "scale": 3.0,
+      "unit": "relative"
+    },
+    "true_motion": "theta(t) = 2*pi*36.0/60*t + 0.16*sin(2*pi*t/2.3)",
+    "saved_geometry": "Boxes/contours derived from ground truth plus Gaussian noise sigma=0.8px; not SAM output",
+    "inference_performed": false,
+    "third_party_material": false,
+    "clip_sha256": "3c73d63eabd40c111ac47108ba50b1742c8c566ce6f441236d7b864b7c09efe5"
+  },
+  "restore_message": "SYNTHETIC original demo restored: rendered by scripts/make_original_demo_clip.py; geometry derived from known motion, not SAM.",
+  "separate_real_evidence": "The real Meta SAM 3.1 run (diagnostic e14d21bb8f3c, 300 records) used third-party footage that this variant does not distribute; see docs/RELEASE_RIGHTS.md.",
+  "limits": [
+    "synthetic footage, not a real recording",
+    "geometry derived from known ground truth plus noise, not segmentation",
+    "replay checks the pipeline; it is not evidence about real mechanisms"
+  ]
+}

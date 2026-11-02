@@ -1,0 +1,3 @@
+-r requirements-lock.txt
+# Reproducible H.264 fixtures and optional local video preparation (bundles FFmpeg).
+imageio-ffmpeg==0.6.0
