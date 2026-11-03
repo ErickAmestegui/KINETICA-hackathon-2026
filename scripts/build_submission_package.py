@@ -297,9 +297,12 @@ def original_readme(raw):
     start = text.index('## Run the Reality Lab demo')
     end = text.index('## Current evidence')
     text = text[:start] + ORIGINAL_README_RUN + text[end:]
-    packaged = text.index('**Prepared release packages:**')
-    text = text[:packaged] + ('**Original-media variant:** this repository does not include the third-party clip or its saved SAM geometry, '
-                              'so the workspace-only steps below cannot be reproduced from it. Use the synthetic demo above.') + text[text.index('\n', packaged):]
+    if '**Prepared release packages:**' in text:
+        packaged = text.index('**Prepared release packages:**')
+        text = text[:packaged] + ('**Original-media variant:** this repository does not include the third-party clip or its saved SAM geometry, '
+                                  'so the workspace-only steps below cannot be reproduced from it. Use the synthetic demo above.') + text[text.index('\n', packaged):]
+    elif '**Original-media variant:**' not in text:
+        raise ValueError('README has neither the release-package note nor the original-media note')
     return text.encode('utf-8')
 
 
