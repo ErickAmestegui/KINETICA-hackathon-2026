@@ -46,6 +46,10 @@ The public candidate was extracted into an empty folder and set up only from its
 | `KINETICA-public-repository-candidate-7737914-ed4a08a517a0.zip` | 132 | 1,729,805 | `a54dcd86b7a0eca8642c6c3c2d605df297c452c599d30a8f57628f76dee3228f` |
 | `KINETICA-submission-review-kit-7737914-6e62f3cd4ecb.zip` (adds built frontend, final MP4, captions, transcripts, credits, video manifest) | 145 | 29,070,241 | `b855b0f0cbcb5bd08063dfb8b215ed71abbfaaa64454af5d182370706bfc4615` |
 
+## Delivery repository (original media)
+
+This repository, `https://github.com/ErickAmestegui/KINETICA-hackathon-2026`, holds the original-media history built from `KINETICA-public-repository-candidate-original-media-89acd03-d64735d0ab90.zip`. Its initial commit `7a837c5d6c53c5e9a3950fd3f4aa3371d836e8fe` (tree `e98f26c365ad90e7715479259c2a95828db36b6a`) matches the candidate's payload file for file, apart from the two packaging-status files and Git's CRLF-to-LF normalization of one third-party license text. A full-history audit (`scripts/audit_public_repo.py`) found no secrets, private paths, personal e-mail, Eitech media or Eitech-derived SAM geometry; the only media file is the original synthetic clip. Later commits correct documentation only. The earlier repository described below holds the superseded Eitech-based candidate and stays private.
+
 ## GitHub repository (prepared, private)
 
 `https://github.com/ErickAmestegui/KINETICA` was created **private** and holds one fresh commit: the public candidate above without its two packaging-status files. Commit author: the account's GitHub no-reply address, so no personal e-mail is exposed. Scan of the pushed tree: no keys/tokens, no Windows user paths, no username, no broken relative Markdown links. The only e-mail addresses are third-party authors' inside their own license texts. Making it public is a single visibility change awaiting the entrant's approval.

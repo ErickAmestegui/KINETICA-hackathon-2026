@@ -35,7 +35,7 @@ What is synthetic: the clip and its saved geometry (derived from the known motio
 What is real: Meta SAM 3.1 ran on a separate third-party clip (diagnostic e14d21bb8f3c: 150 boxes + 150 contours, three IDs over 50 frames). That footage and its geometry are kept as historical evidence, documented in the repository and not shown in this video. The Meta Model API panel shown at the end is the real integration: cost estimate first, paid inference blocked by default.
 What is simulated or unverified: Break Reality is a counterfactual solver simulation. Ask the Machine is a deterministic mock. Live Muse Spark remains unverified after a failed trial.
 
-Code (MIT): https://github.com/ErickAmestegui/KINETICA
+Code (MIT): https://github.com/ErickAmestegui/KINETICA-hackathon-2026
 
 All footage, geometry, captions and graphics are original work of the KINETICA entrant. Narration: offline synthetic voice (Microsoft Zira Desktop). No music or third-party footage.
 ```
